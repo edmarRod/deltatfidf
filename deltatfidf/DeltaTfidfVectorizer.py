@@ -7,7 +7,7 @@ from sklearn.preprocessing import normalize
 from sklearn.utils.validation import check_is_fitted, check_array, FLOAT_DTYPES
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from DeltaTfidfTransformer import DeltaTfidfTransformer
+from .DeltaTfidfTransformer import DeltaTfidfTransformer
 
 
 class DeltaTfidfVectorizer(CountVectorizer):
